@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      .box {
+        background-color: hsl(225, 100%, 94%);
+        /* display: inline-block; */
+        width: 1400px;
+        height: 650px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 0px;
+      }
+      img {
+        width: 1400px;
+        height: 320px;
+        margin: none;
+      }
+      #hero {
+        display: block;
+        height: 164px;
+        width: 361px;
+        margin: auto;
+        position: relative;
+        top: -242px;
+        margin-bottom: 0px;
+        border-top-right-radius: 24px;
+        border-top-left-radius: 24px;
+      }
+      .box1 {
+        /* border: 2px solid green; */
+        background-color: white;
+        height: 350px;
+        width: 361px;
+        margin-top: 0px;
+        margin: auto;
+        position: relative;
+        bottom: 259px;
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: 500;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+      }
+      #plan img {
+        height: 52px;
+        width: 44px;
+        padding-top: 8px;
+      }
+      .box1 h3 {
+        text-align: center;
+        padding-top: 25px;
+      }
+      .box1 p {
+        padding-top: 10px;
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        color: #c1c1c1;
+      }
+      #plan {
+        display: block;
+        margin: auto;
+        height: 67px;
+        width: 300px;
+        background-color: #f3f4f7;
+      }
+      #plan p {
+        margin: 0px;
+        font-weight: bold;
+        color: black;
+        position: relative;
+        bottom: 61px;
+        left: -45px;
+      }
+      #plan p em {
+        color: #c1c1c1;
+        font-style: italic;
+        line-height: 35px;
+      }
+      #plan a {
+        position: relative;
+        top: -103px;
+        left: 230px;
+        font-size: small;
+        color: hsl(245, 75%, 52%);
+      }
+      #plan a:hover {
+        text-decoration: none;
+        color: rgb(188, 202, 245);
+        cursor: pointer;
+      }
+      .btn {
+        height: 37px;
+        width: 240px;
+        color: white;
+        background-color: hsl(223deg 100% 50%);
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 29px;
+        /* font-size: medium; */
+        font-weight: bold;
+      }
+      .btn:hover {
+        background-color: rgb(148, 166, 240);
+        cursor: pointer;
+      }
+      .box1 a {
+        color: hsl(0, 1%, 42%);
+        position: relative;
+        top: 18px;
+        left: 130px;
+        text-decoration: none;
+        font-family: ui-serif;
+      }
+      .box1 a:hover {
+        color: rgb(12, 11, 11);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="bigbox">
+          <img src="/images/pattern-background-desktop.svg" alt="" />
+          <img src="/images/illustration-hero.svg" alt="" id="hero" />
+          <div class="box1">
+            <h3>Order Summary</h3>
+            <p>
+              you can now listen to millions of songs,<br />audiobook,and
+              podcasts on any device anywhere you like&excl;
+            </p>
+            <div id="plan">
+              <img src="/images/icon-music.svg" alt="" id="music" />
+              <p>
+                Anuual Plan <br />
+                <em>&dollar;59.99/year</em>
+              </p>
+              <a href="">change</a>
+            </div>
+            <button class="btn">Proceed to Payment</button>
+            <a href="">Cancel Order</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
